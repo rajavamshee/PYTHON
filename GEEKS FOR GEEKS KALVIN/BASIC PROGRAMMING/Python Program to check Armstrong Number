@@ -1,0 +1,14 @@
+n = int(input())
+temperory= n
+sum=0
+while(n!=0):
+    r=n%10
+    sum = sum+(r * r * r)
+    n = n//10
+    
+if (sum==temperory):
+    print("yes armstrong")
+    
+else:
+    print("not armstrong")
+    # TODO: write code...
