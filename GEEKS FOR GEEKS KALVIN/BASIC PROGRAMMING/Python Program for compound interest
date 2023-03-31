@@ -1,0 +1,13 @@
+ 
+def compound_interest(principal, rate, time):
+  
+    # Calculates compound interest
+    Amount = principal * (pow((1 + rate / 100), time))
+    CI = Amount - principal
+    print("Compound interest is", CI)
+
+principal=int(input())
+rate=int(input())
+time=int(input())
+
+compound_interest(principal,rate,time)
