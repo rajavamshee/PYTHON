@@ -1,0 +1,6 @@
+def area(radius):
+    pi=3.14
+    return pi * (radius * radius)
+    
+radius=int(input())
+print("Area of the circle %.6f",area(radius))
