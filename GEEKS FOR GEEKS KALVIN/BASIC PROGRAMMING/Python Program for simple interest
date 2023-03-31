@@ -1,0 +1,5 @@
+principle=int(input('principle amount\n'))
+time=int(input('period of time\n'))
+rate=int(input('rate of intrest \n'))
+simpleintrest= (principle * time * rate)/100
+print(simpleintrest)
