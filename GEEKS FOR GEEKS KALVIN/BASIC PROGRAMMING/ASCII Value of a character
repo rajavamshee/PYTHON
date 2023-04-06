@@ -1,0 +1,5 @@
+# Program to find the ASCII value of the given character
+
+
+a = input("enter the character\n")
+print("The ASCII value of '" + a + "' is", ord(a))
