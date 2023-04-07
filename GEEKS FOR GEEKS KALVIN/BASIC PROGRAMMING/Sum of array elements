@@ -1,0 +1,11 @@
+lt=[]
+sum=0
+n=int(input("enter the size of the array"))
+for i in range(0,n):
+    t=int(input())
+    lt.append(t)
+    
+for et in lt:
+    sum=sum+et
+    
+print("result: ",sum)
