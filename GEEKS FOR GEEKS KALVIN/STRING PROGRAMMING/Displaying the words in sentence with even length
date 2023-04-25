@@ -1,0 +1,7 @@
+st = input()
+sa = st.split()
+lst = []
+for word in sa:
+    if len(word) % 2 == 0:
+        lst.append(word)
+print(lst)
