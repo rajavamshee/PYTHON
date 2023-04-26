@@ -1,0 +1,10 @@
+s = input()
+a="aeiou"
+b= ""
+for i in s:
+    if i in a:
+        b+="x"
+    else:
+        b+=i 
+        
+print(b)
