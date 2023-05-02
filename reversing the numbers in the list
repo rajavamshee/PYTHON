@@ -1,0 +1,12 @@
+original_list =[1234, 2345, 23456] result_list =[]
+#iterate over each number in the original list
+  for num
+in original_list:
+#convert the number to a string and reverse it
+  reversed_num_str = str (num)[::-1]
+#convert the reversed string back to an integer
+  reversed_num = int (reversed_num_str)
+#append the reversed number to the result list
+  result_list.
+append (reversed_num)
+print (result_list)
