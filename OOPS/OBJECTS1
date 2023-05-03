@@ -1,0 +1,23 @@
+class test:
+    def __init__(self):
+        self.sam="sush"
+
+    def sample(self,name,roll,batch,grade):
+        self.name=name
+        self.roll=roll
+        self.batch=batch
+        self.grade=grade
+
+    def sam2(self):
+        print("Hello from sam2()")
+
+# Object creation
+vamshee = test()
+sush = test()
+
+# Setting attributes using the sample() method
+sush.sample("sush", 2, 'B4', 8.5)
+vamshee.sample("vamshee", 1, "B3", 9)
+
+# Calling the sam2() method of the sush object
+sush.sam2()
