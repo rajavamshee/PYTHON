@@ -1,0 +1,33 @@
+class test:
+    def __init__(self):
+        self.sam="sush"
+
+    def sample(self,name,roll,batch,grade):
+        self.name=name
+        self.roll=roll
+        self.batch=batch
+        self.grade=grade
+
+#object creation
+#t=test()
+vamshee=test()
+sush=test()
+
+sush.sample("sush",2,'B4',8.5)
+vamshee.sample("vamshee",1,"B3",9)
+
+sush.sam2()
+
+
+
+
+
+name1="vamshee"
+roll1=1
+batch1="B3"
+grade1=9
+
+name2="sush"
+roll2=2
+batch2="B4"
+grade2=8.5
